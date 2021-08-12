@@ -423,9 +423,7 @@
     color: #e8e8e8;
 }
 .section-five__quotes {
-    fill: #fff;
-    vertical-align: super;
-    cursor: pointer;
+    fill: #656be2;
 }
 
 
@@ -469,12 +467,17 @@
     justify-content: space-between;
     margin-bottom: 53px;
 }
+.footer-hover {
+    fill: #fff;
+    vertical-align: super;
+    cursor: pointer;
+}
 
 /*----------------Hovers-----------------*/
 
-.section-five__quotes:hover{
-    transform: scale(1.5);
-    transition: 1s;
+.footer-hover:hover{
+    transform: scale(2);
+    transition: 0.5s;
 }
 .facebook-hover:hover{
     fill: rgb(0, 76, 255) ; }
